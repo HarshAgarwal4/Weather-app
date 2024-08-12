@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="day">
+    <header>
+        <h1>Weather Guide</h1>
+        <p>Here you can track real time weather for any city</p>
+        <div class="theme">
+            <span>light</span>
+            <span>dark</span>
+            <button id="ball" class="light"></button>
+        </div>
+    </header>
+
+    <div class="search">
+        <div class="img">
+            <img src="http://openweathermap.org/img/wn/01d@2x.png" alt="Weather" id="logo">
+            <div id="logodes">Clear sky</div>
+        </div>
+        <div class="sear">
+
+            <input name="city" id="city" placeholder="Enter city name">
+            <button id="btn">search</button>
+        </div>
+    </div>
+    <div class="containers">
+        <div class="card">
+            <h2>City information</h2>
+            <ul>
+                <li id="Cityname1">City name</li>
+                <li id="Cityname"></li>
+                <li id="Cloudstatus1">Clouds status</li>
+                <li id="Cloudstatus"></li>
+                <li id="Longitudes1">Longitudes</li>
+                <li id="Longitudes"></li>
+                <li id="Latitudes1">Latitudes</li>
+                <li id="Latitudes"></li>
+                <li id="cityid1">City ID </li>
+                <li id="cityid"></li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>Temprature</h2>
+            <ul>
+                <li id="Temp1">Temp</li>
+                <li id="Temp"></li>
+                <li id="Max-Temp1">Max-Temp</li>
+                <li id="Max-Temp"></li>
+                <li id="Min-Temp1">Min-Temp</li>
+                <li id="Min-Temp"></li>
+                <li id="Feels1">Feels-like</li>
+                <li id="Feels"></li>
+                <li id="Humidity1">Humidity</li>
+                <li id="Humidity"></li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>Details</h2>
+            <ul>
+                <li id="Wind-Speed1">Wind-Speed</li>
+                <li id="Wind-Speed"></li>
+                <li id="Visiibility1">Visiibility</li>
+                <li id="Visibility"></li>
+                <li id="Sunrise1">Sunrise</li>
+                <li id="Sunrise"></li>
+                <li id="Sunset1">Sunset</li>
+                <li id="Sunset"></li>
+                <li id="Description1">Description</li>
+                <li id="Description"></li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
